@@ -64,7 +64,7 @@ fun Service() {
 
             androidx.work.WorkManager.getInstance(context).enqueue(myWorkRequest)
         }) {
-            Text(text = "Job Intent Service")
+            Text(text = "Work Manager Service")
         }
         Button(onClick = {
             //your onclick code here
